@@ -14,6 +14,7 @@ function App() {
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/todo" element={<TodoList />} />
+      <Route path="/*" element={<Navigate to="/signin"></Navigate>}></Route>
     </Routes>
 
     // <div>{!isAuthorized ? <Redirect to="/login" /> : <Redirect to="/" />}</div>
