@@ -6,8 +6,6 @@ import SignUp from "pages/SignUp";
 import TodoList from "pages/TodoList";
 
 function App() {
-  // let isAuthorized = sessionStorage.getItem("isAuthorized");
-
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/signin"></Navigate>}></Route>
@@ -16,8 +14,6 @@ function App() {
       <Route path="/todo" element={<TodoList />} />
       <Route path="/*" element={<Navigate to="/signin"></Navigate>}></Route>
     </Routes>
-
-    // <div>{!isAuthorized ? <Redirect to="/login" /> : <Redirect to="/" />}</div>
   );
 }
 

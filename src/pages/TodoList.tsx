@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 type Todo = {
   id: number;
@@ -18,16 +18,13 @@ export default function TodoList() {
 
   useEffect(() => {
     const access_token = localStorage.getItem("access_token");
-    // access_token을 사용하여 로그인 상태를 확인하거나 필요한 작업을 수행할 수 있습니다.
     if (!access_token) {
-      // 로그인 상태이므로 리다이렉트 등 필요한 작업을 수행하세요.
       navigate("/signin");
     }
   }, [navigate]);
 
   useEffect(() => {
     const access_token = localStorage.getItem("access_token");
-    console.log(access_token);
 
     const fetchTodos = async () => {
       try {
@@ -134,8 +131,6 @@ export default function TodoList() {
   const editOpen = (todo: Todo) => {
     setEditTodoId(todo.id);
     setEdit(todo.todo);
-    console.log(todos);
-    console.log(editTodoId);
   };
 
   const editClose = async (todo: Todo) => {
@@ -144,8 +139,6 @@ export default function TodoList() {
     await setTodos(updatedTodos);
     todo.todo = edit;
     await updateTodoStatus(todo);
-    console.log(todos);
-    console.log(editTodoId);
   };
 
   const logout = () => {

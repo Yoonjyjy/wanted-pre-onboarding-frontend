@@ -17,9 +17,7 @@ export default function SignIn() {
 
   useEffect(() => {
     const access_token = localStorage.getItem("access_token");
-    // access_token을 사용하여 로그인 상태를 확인하거나 필요한 작업을 수행할 수 있습니다.
     if (access_token) {
-      // 로그인 상태이므로 리다이렉트 등 필요한 작업을 수행하세요.
       navigate("/todo");
     }
   }, [navigate]);
@@ -35,21 +33,14 @@ export default function SignIn() {
           },
         });
 
-        console.log(response.status);
-        console.log(response.data.access_token);
-
         localStorage.setItem("access_token", response.data.access_token);
         navigate("/todo");
-        // Handle the response here
       } catch (error) {
         if (axios.isAxiosError(error)) {
           const axiosError = error as AxiosError<{ message: string }>;
           if (axiosError.response) {
             // 요청은 성공했지만 서버에서 오류 응답을 반환한 경우
-            console.log("Error response status:", axiosError.response.status);
-            console.log("Error response message:", axiosError.response.data.message);
             setMsg(axiosError.response.data.message);
-            // 여기에서 알림으로 상태 코드와 메시지를 표시할 수 있습니다.
           } else if (axiosError.request) {
             // 요청이 이루어졌지만 응답을 받지 못한 경우
             console.log("No response received:", axiosError.request);
