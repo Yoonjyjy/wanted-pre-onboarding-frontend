@@ -122,7 +122,7 @@ export default function SignIn() {
         <p className="mt-10 text-center text-sm text-gray-500">
           회원이 아니신가요?{" "}
           <a className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-            <Link to="/signup">회원가입</Link>
+            <Link to="/signup">회원 가입</Link>
           </a>
         </p>
       </div>

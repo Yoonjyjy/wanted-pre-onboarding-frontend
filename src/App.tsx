@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
-import SignIn from "pages/SignIn";
-import SignUp from "pages/SignUp";
-import TodoList from "pages/TodoList";
+import SignIn from "pages/signIn";
+import SignUp from "pages/signUp";
+import TodoList from "pages/todoList";
 
 function App() {
   return (

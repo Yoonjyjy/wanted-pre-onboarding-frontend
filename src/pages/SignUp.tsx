@@ -119,7 +119,7 @@ export default function SignUp() {
         </form>
 
         <p className="mt-10 text-center text-sm text-gray-500">
-          이미 가입된 회원이신가요?{" "}
+          이미 가입한 회원이신가요?{" "}
           <a className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
             <Link to="/signin">로그인</Link>
           </a>
