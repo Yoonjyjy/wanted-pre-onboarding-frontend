@@ -1,7 +1,5 @@
 # 원티드 프리온보딩 프론트엔드 - 선발 과제
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## 지원자 성명
 
 윤지영
@@ -68,13 +66,20 @@ http://localhost:3000/ 에서 실행
   - 응답받은 JWT는 로컬 스토리지에 저장해주세요
 
  <1, 3번 조건 - 유효성 검사, 로그인 후 todo로 이동>
-<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/b500081d-a510-403f-8ae0-15c33fecf1da" type="video/mp4">
+ 
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/b500081d-a510-403f-8ae0-15c33fecf1da" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/b500081d-a510-403f-8ae0-15c33fecf1da" type="video/mp4"></video>
 
 
  <2번 조건 - 회원가입 성공 시 /signin으로 이동>
-<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/59119839-c44c-4ad3-a6ee-798a82854b7a" type="video/mp4">
-    https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/59119839-c44c-4ad3-a6ee-798a82854b7a
-</video>
+
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/59119839-c44c-4ad3-a6ee-798a82854b7a" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/59119839-c44c-4ad3-a6ee-798a82854b7a" type="video/mp4"></video>
+
 
 #### Assignment 4
 
@@ -84,9 +89,11 @@ http://localhost:3000/ 에서 실행
   - 로컬 스토리지에 토큰이 없는 상태로 `/todo`페이지에 접속한다면 `/signin` 경로로 리다이렉트 시켜주세요
 
  <4번 조건 - 로그인 여부에 따른 리다이렉트 처리>
-<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/19e3f4ea-7885-4208-b4c2-b055d0f3ea9c" type="video/mp4">
-    https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/19e3f4ea-7885-4208-b4c2-b055d0f3ea9c
-</video>
+ 
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/19e3f4ea-7885-4208-b4c2-b055d0f3ea9c" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/19e3f4ea-7885-4208-b4c2-b055d0f3ea9c" type="video/mp4"></video>
 
 ---
 
@@ -113,6 +120,13 @@ http://localhost:3000/ 에서 실행
   </label>
 </li>
 ```
+ 
+ <5번 조건 - 투두 목록 조회, 내용 및 완료 여부 표시>
+ 
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/8bd7f3d9-575f-47a6-b6f3-aa5f83a6b470" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/8bd7f3d9-575f-47a6-b6f3-aa5f83a6b470" type="video/mp4"></video>
 
 #### Assignment 6
 
@@ -132,6 +146,13 @@ http://localhost:3000/ 에서 실행
 #### Assignment 7
 
 - TODO의 체크박스를 통해 완료 여부를 수정할 수 있도록 해주세요.
+ 
+ <6, 7번 조건 - 투두 추가 및 새로고침 시에도 유지, 완료 여부 수정>
+ 
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/a2969aa3-be79-4f08-a073-82f3133a2318" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/a2969aa3-be79-4f08-a073-82f3133a2318" type="video/mp4"></video>
 
 #### Assignment 8
 
@@ -156,6 +177,13 @@ http://localhost:3000/ 에서 실행
 - 투두 리스트의 삭제 기능을 구현해주세요
 
   - 투두 리스트의 TODO 우측의 삭제버튼을 누르면 해당 아이템이 삭제되도록 해주세요
+ 
+ <8, 9번 조건 - 수정 및 삭제 버튼 구현, 삭제 기능 시연>
+ 
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/3b37dff5-dbcf-45ec-a546-508677445675" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/3b37dff5-dbcf-45ec-a546-508677445675" type="video/mp4"></video>
 
 #### Assignment 10
 
@@ -176,8 +204,11 @@ http://localhost:3000/ 에서 실행
     <button data-testid="submit-button">제출</button>
     <button data-testid="cancel-button">취소</button>
     ```
-
-#### 예시
-
-![example](https://user-images.githubusercontent.com/110355087/214471527-bd8037b9-f2dd-4db0-ade0-3d5ce27a6c0c.gif)
+ 
+ <10번 조건 - 수정 모드, 제출, 취소 기능 시연>
+ 
+ <video controls>
+  <source src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/9e2b54c0-8d5b-4323-8a7c-28b443dbe302" type="video/mp4">
+ </video>
+<video src="https://github.com/Yoonjyjy/wanted-pre-onboarding-frontend/assets/41252790/9e2b54c0-8d5b-4323-8a7c-28b443dbe302" type="video/mp4"></video>
 
