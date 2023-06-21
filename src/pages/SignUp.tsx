@@ -39,8 +39,8 @@ export default function SignIn() {
 
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign In</h2>
-        <p className="my-4 text-center text-sm">가입하신 이메일 아이디와 비밀번호를 입력하세요</p>
+        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign Up</h2>
+        <p className="my-4 text-center text-sm">가입하실 이메일 아이디와 비밀번호를 입력하세요</p>
         {/* <p className="my-4 text-center text-sm">이메일 아이디 : {email}</p>
         <p className="my-4 text-center text-sm">비밀번호 : {password}</p> */}
       </div>
@@ -94,18 +94,18 @@ export default function SignIn() {
           <div>
             <button
               type="submit"
-              data-testid="signin-button"
+              data-testid="signup-button"
               className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              로그인
+              회원가입
             </button>
           </div>
         </form>
 
         <p className="mt-10 text-center text-sm text-gray-500">
-          회원이 아니신가요?{" "}
+          이미 가입된 회원이신가요?{" "}
           <a href="" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-            <Link to="/signup">회원가입</Link>
+            <Link to="/signin">로그인</Link>
           </a>
         </p>
       </div>
